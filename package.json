@@ -1,0 +1,13 @@
+{
+  "name": "pipeline_2",
+  "version": "1.0.0",
+  "description": "TEST API project for eLearning platform",
+  "main": "index.js",
+  "scripts": {
+    "api-tests": "newman run E_Learning.postman_collection.json -e QA.postman_environment.json"
+  },
+  "author": "",
+  "dependencies": {
+    "newman": "^5.1.0"
+  }
+}
